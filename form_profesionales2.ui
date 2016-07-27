@@ -1,0 +1,5246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form_profesionales2</class>
+ <widget class="QDialog" name="form_profesionales2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>942</width>
+    <height>717</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>230</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Schoolbook L</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Fecha :</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>911</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Light">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>31</red>
+         <green>100</green>
+         <blue>191</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>26</red>
+         <green>83</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Dark">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>10</red>
+         <green>33</green>
+         <blue>63</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Mid">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>14</red>
+         <green>44</green>
+         <blue>84</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="BrightText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Shadow">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="AlternateBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>10</red>
+         <green>33</green>
+         <blue>63</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>220</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Light">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>31</red>
+         <green>100</green>
+         <blue>191</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>26</red>
+         <green>83</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Dark">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>10</red>
+         <green>33</green>
+         <blue>63</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Mid">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>14</red>
+         <green>44</green>
+         <blue>84</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="BrightText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Shadow">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="AlternateBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>10</red>
+         <green>33</green>
+         <blue>63</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>220</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>10</red>
+         <green>33</green>
+         <blue>63</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Light">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>31</red>
+         <green>100</green>
+         <blue>191</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>26</red>
+         <green>83</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Dark">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>10</red>
+         <green>33</green>
+         <blue>63</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Mid">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>14</red>
+         <green>44</green>
+         <blue>84</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>10</red>
+         <green>33</green>
+         <blue>63</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="BrightText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>10</red>
+         <green>33</green>
+         <blue>63</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>77</red>
+         <green>99</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Shadow">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="AlternateBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>21</red>
+         <green>67</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>220</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTabWidget{
+font: 75 11pt &quot;Century Schoolbook L&quot;;
+background-color: rgb(77, 99, 127);
+}
+QLineEdit{
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+}
+QComboBox{
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+}
+
+QCheckBox{
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+	background-color: rgb(101, 131, 167);
+}</string>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="usesScrollButtons">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="tab_general">
+    <attribute name="title">
+     <string>General</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>50</y>
+       <width>761</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>242</green>
+           <blue>203</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>115</green>
+           <blue>76</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>170</red>
+           <green>153</green>
+           <blue>101</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>242</green>
+           <blue>203</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>242</green>
+           <blue>203</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>115</green>
+           <blue>76</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>170</red>
+           <green>153</green>
+           <blue>101</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>242</green>
+           <blue>203</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>115</green>
+           <blue>76</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>242</green>
+           <blue>203</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>115</green>
+           <blue>76</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>170</red>
+           <green>153</green>
+           <blue>101</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>115</green>
+           <blue>76</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>115</green>
+           <blue>76</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>230</green>
+           <blue>152</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+}
+QLabel{
+background-color: rgb(77, 99, 127);
+}
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>10</y>
+        <width>741</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Midlight">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>233</green>
+            <blue>195</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Dark">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>105</green>
+            <blue>67</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Mid">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>170</red>
+            <green>141</green>
+            <blue>90</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="BrightText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Shadow">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="AlternateBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>233</green>
+            <blue>195</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>220</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Midlight">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>233</green>
+            <blue>195</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Dark">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>105</green>
+            <blue>67</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Mid">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>170</red>
+            <green>141</green>
+            <blue>90</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="BrightText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Shadow">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="AlternateBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>233</green>
+            <blue>195</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>220</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>105</green>
+            <blue>67</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Midlight">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>233</green>
+            <blue>195</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Dark">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>105</green>
+            <blue>67</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Mid">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>170</red>
+            <green>141</green>
+            <blue>90</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>105</green>
+            <blue>67</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="BrightText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>105</green>
+            <blue>67</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>77</red>
+            <green>99</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Shadow">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="AlternateBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>211</green>
+            <blue>135</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>220</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lne_apellido">
+       <property name="geometry">
+        <rect>
+         <x>191</x>
+         <y>18</y>
+         <width>251</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+
+background-color: rgb(255, 255, 255);
+
+}</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_nombre">
+       <property name="geometry">
+        <rect>
+         <x>191</x>
+         <y>45</y>
+         <width>251</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+background-color: rgb(255, 255, 255);
+
+}</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbx_genero">
+       <property name="geometry">
+        <rect>
+         <x>191</x>
+         <y>71</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Femenino</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Masculino</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QDateEdit" name="dte_fecha_nacimiento">
+       <property name="geometry">
+        <rect>
+         <x>191</x>
+         <y>98</y>
+         <width>103</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy/M/dd</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_lugar_nacimiento">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>124</y>
+         <width>251</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbx_estado_civil">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>98</y>
+         <width>108</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Soltera/o</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Casada/o</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Divorciada/o</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Viuda/o</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>21</x>
+         <y>150</y>
+         <width>139</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Domicilio Personal :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_70">
+       <property name="geometry">
+        <rect>
+         <x>474</x>
+         <y>148</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Número:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>472</x>
+         <y>124</y>
+         <width>76</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Localidad :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>98</y>
+         <width>155</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Fecha de Nacimiento :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>21</x>
+         <y>124</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Lugar de Nacimiento:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>471</x>
+         <y>98</y>
+         <width>94</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Estado Civil :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_domicilio_personal">
+       <property name="geometry">
+        <rect>
+         <x>582</x>
+         <y>150</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_numero_domicilio_personal">
+       <property name="geometry">
+        <rect>
+         <x>579</x>
+         <y>124</y>
+         <width>142</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_localidad_personal">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>150</y>
+         <width>251</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_domicilio_profesional">
+       <property name="geometry">
+        <rect>
+         <x>191</x>
+         <y>204</y>
+         <width>142</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>204</y>
+         <width>156</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Domicilio Profesional :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_71">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>204</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Nro:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_numero_profesional">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>204</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>496</x>
+         <y>205</y>
+         <width>76</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Localidad :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_localidad_profesional">
+       <property name="geometry">
+        <rect>
+         <x>581</x>
+         <y>204</y>
+         <width>142</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_50">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>230</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Email :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_correo_personal_2">
+       <property name="geometry">
+        <rect>
+         <x>452</x>
+         <y>230</y>
+         <width>271</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+
+background-color: rgb(255, 255, 255);
+
+}</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_telefono_personal">
+       <property name="geometry">
+        <rect>
+         <x>191</x>
+         <y>177</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_telefono_profesional">
+       <property name="geometry">
+        <rect>
+         <x>191</x>
+         <y>230</y>
+         <width>142</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_25">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>177</y>
+         <width>68</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Teléfono :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_44">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>71</y>
+         <width>55</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Género:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>18</y>
+         <width>62</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Apellido:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>45</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Nombre:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>230</y>
+         <width>68</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Teléfono :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>388</x>
+         <y>177</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Email :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>71</y>
+         <width>97</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Nacionalidad:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>18</y>
+         <width>70</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Tipo Doc.:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_46">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>45</y>
+         <width>65</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Número: </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_numero_doc">
+       <property name="geometry">
+        <rect>
+         <x>581</x>
+         <y>45</y>
+         <width>142</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbx_tipo_doc">
+       <property name="geometry">
+        <rect>
+         <x>581</x>
+         <y>18</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DNI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PASAPORTE</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLineEdit" name="lne_correo_personal">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>177</y>
+         <width>271</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+
+background-color: rgb(255, 255, 255);
+
+}</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbx_nacionalidad">
+       <property name="geometry">
+        <rect>
+         <x>581</x>
+         <y>71</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Argentina/o</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Boliviana/o</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Paraguaya/o</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Brasilera/o</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Venezolana/o</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uruguaya/o</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_17">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>430</y>
+       <width>761</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>7</y>
+        <width>741</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(112, 144, 185);</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Apellido y Nombre</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Documento</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Especialidad</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nro. Matrícula</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_20">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>761</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QTableWidget" name="tableWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>7</y>
+         <width>741</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(112, 144, 185);</string>
+       </property>
+       <column>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Apellido y Nombre</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Documento</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Especialidad</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Nro. Matrícula</string>
+        </property>
+       </column>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>77</x>
+       <y>18</y>
+       <width>761</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);
+border-radius: 8px;</string>
+     </property>
+     <property name="text">
+      <string>                                                                                Datos Personales</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>402</y>
+       <width>761</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);
+border-radius: 8px;</string>
+     </property>
+     <property name="text">
+      <string>                                                                             Grilla de Resultados</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>360</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Activo</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_3">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>360</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Baja</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>360</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Suspendido</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="boton_guardar">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>360</y>
+       <width>75</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>1025</width>
+       <height>600</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);</string>
+     </property>
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="boton_limpiar">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>360</y>
+       <width>75</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>1025</width>
+       <height>600</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_academicos">
+    <attribute name="title">
+     <string>Académicos</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>66</y>
+       <width>761</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+}
+QLabel{
+background-color: rgb(77, 99, 127);
+}
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>16</x>
+        <y>32</y>
+        <width>731</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>52</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Graduado en la Universidad de: </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_36">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>81</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Fecha de Título:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>139</y>
+         <width>286</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Fecha de Autenticación por el Min. del Interior: </string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbx_universidad_grado">
+       <property name="geometry">
+        <rect>
+         <x>226</x>
+         <y>50</y>
+         <width>231</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Universidad Católica de Córdoba	</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional de Tucumán	</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional de Rosario	</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Adventista del Plata</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Empresarial Siglo 21</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Abierta Interamericana</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad de Belgrano</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad del Salvador</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Argentina de la Empresa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad del Aconcagua</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Católica Argentina Santa María de los Buenos Aires</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional de La Plata</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad de Palermo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Maimónides</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional de Córdoba</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Instituto Universitario de Ciencias de la Salud</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional de Mar del Plata</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad de Ciencias Empresariales y Sociales</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Autónoma de Entre Ríos</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Favaloro</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad de la Cuenca del Plata</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="cbx_titulo_grado">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>21</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Licenciado en Psicología</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Psicólogo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Especialista</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Magister</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Doctor en Psicología</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_37">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>110</y>
+         <width>358</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Fecha de Autenticación por el Min. de Educación y Justicia: </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_34">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>23</y>
+         <width>42</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Título :</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="boton_agregar">
+       <property name="geometry">
+        <rect>
+         <x>335</x>
+         <y>170</y>
+         <width>75</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(169, 185, 191);</string>
+       </property>
+       <property name="text">
+        <string>Agregar</string>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="dte_fecha_titulo_grado">
+       <property name="geometry">
+        <rect>
+         <x>129</x>
+         <y>79</y>
+         <width>110</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy/M/dd</string>
+       </property>
+       <property name="date">
+        <date>
+         <year>2016</year>
+         <month>5</month>
+         <day>6</day>
+        </date>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="dte_fecha_aut_min_educ_grado">
+       <property name="geometry">
+        <rect>
+         <x>385</x>
+         <y>109</y>
+         <width>110</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy/M/dd</string>
+       </property>
+       <property name="date">
+        <date>
+         <year>2016</year>
+         <month>5</month>
+         <day>6</day>
+        </date>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="dte_fecha_aut_min_int_grado">
+       <property name="geometry">
+        <rect>
+         <x>313</x>
+         <y>136</y>
+         <width>110</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy/M/dd</string>
+       </property>
+       <property name="date">
+        <date>
+         <year>2016</year>
+         <month>5</month>
+         <day>6</day>
+        </date>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>21</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbx_universidad_grado_2">
+       <property name="geometry">
+        <rect>
+         <x>485</x>
+         <y>50</y>
+         <width>231</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Universidad Católica de Salta	</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional de San Luis</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad de Congreso</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Católica de Santiago del Estero</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Instituto Universitario Italiano de Rosario</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad de Flores</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad CAECE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Argentina John F. Kennedy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Católica de Cuyo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Católica de Santa Fé</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Museo Social Argentino</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad de la Marina Mercante</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional de Catamarca</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional del  Comahue</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>(FLACSO) Facultad Latinoamericana de Cs. Sociales</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Universidad Nacional de La Matanza</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Instituto Universitario de Salud Mental de la Asociación Psicoanalítica de Bs. As.
+</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>461</x>
+         <y>52</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ó:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>16</x>
+        <y>6</y>
+        <width>301</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(112, 144, 185);
+border-radius: 8px;</string>
+      </property>
+      <property name="text">
+       <string>          Titulación de Grado / Postgrado</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>40</y>
+       <width>761</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);
+border-radius: 8px;</string>
+     </property>
+     <property name="text">
+      <string>                                                                                Datos Académicos</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_14">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>350</y>
+       <width>761</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QTableWidget" name="tw_registrotitulos">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>8</y>
+        <width>700</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>700</width>
+        <height>251</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(112, 144, 185);</string>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <column>
+       <property name="text">
+        <string>Título</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Universidad</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Fecha de Graduación</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Fecha Min. Educ. y Just.</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Fecha Min. Int.</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>319</y>
+       <width>761</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);
+border-radius: 8px;</string>
+     </property>
+     <property name="text">
+      <string>                                                                     Registro de Títulos del Profesional</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Profesionales</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>14</x>
+       <y>39</y>
+       <width>881</width>
+       <height>571</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>131</red>
+           <green>255</green>
+           <blue>131</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>109</red>
+           <green>212</green>
+           <blue>109</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>43</red>
+           <green>85</green>
+           <blue>43</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>58</red>
+           <green>113</green>
+           <blue>58</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>171</red>
+           <green>212</green>
+           <blue>171</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>131</red>
+           <green>255</green>
+           <blue>131</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>109</red>
+           <green>212</green>
+           <blue>109</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>43</red>
+           <green>85</green>
+           <blue>43</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>58</red>
+           <green>113</green>
+           <blue>58</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>171</red>
+           <green>212</green>
+           <blue>171</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>43</red>
+           <green>85</green>
+           <blue>43</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>131</red>
+           <green>255</green>
+           <blue>131</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>109</red>
+           <green>212</green>
+           <blue>109</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>43</red>
+           <green>85</green>
+           <blue>43</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>58</red>
+           <green>113</green>
+           <blue>58</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>43</red>
+           <green>85</green>
+           <blue>43</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>43</red>
+           <green>85</green>
+           <blue>43</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>87</red>
+           <green>170</green>
+           <blue>87</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>9</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+	font: 75 9pt &quot;Century Schoolbook L&quot;;
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+}
+QLabel{
+background-color: rgb(77, 99, 127);
+}
+
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>851</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>9</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QCheckBox{
+background-color: rgb(96, 123, 158);
+}</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QGroupBox" name="groupBox_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>24</y>
+         <width>831</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>9</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGroupBox{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+
+QLabel{
+border-style: solid;
+border-width: 1px;
+border-radius: 2px;
+background-color: rgb(112, 144, 185);
+}
+
+
+QCheckBox{
+background-color: rgb(96, 123, 158);
+}</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QCheckBox" name="ckbx_docencia">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>16</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+        </property>
+        <property name="text">
+         <string>Docencia</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_nivel_medio">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>16</y>
+          <width>134</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Nivel Medio</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_nivel_terciario">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>40</y>
+          <width>134</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Nivel Terciario</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_nivel_universitario">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>64</y>
+          <width>134</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Nivel Universitario</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_psic_clin_nios">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>147</y>
+          <width>241</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Psicología clínica de niños</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_psic_clin_adultos">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>117</y>
+          <width>241</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Psicología clínica de adultos</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_psic_clin_vincular">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>17</y>
+          <width>281</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+        </property>
+        <property name="text">
+         <string>Psicología clínica vincular</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_psic_lab_organizacional">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>50</y>
+          <width>281</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Psicología laboral organizacional</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_psic_educacional">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>83</y>
+          <width>281</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-width:1px;
+</string>
+        </property>
+        <property name="text">
+         <string>Psicología educacional</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_neuropsic">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>116</y>
+          <width>281</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Neuropsicología</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_psicoprofilaxis">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>149</y>
+          <width>281</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Psicoprofilaxis (obstétrica/quirúrgica)</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_psiconcologia">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>17</y>
+          <width>271</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+        </property>
+        <property name="text">
+         <string>Psico-oncología</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_investigacion">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>50</y>
+          <width>271</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Investigación</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_evaluacion_psic">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>83</y>
+          <width>271</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+        </property>
+        <property name="text">
+         <string>Evaluación psicológica/Psicodiagnóstico</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_psic_forense">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>116</y>
+          <width>271</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Psicología forense</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_otros">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>149</y>
+          <width>271</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Otros</string>
+        </property>
+       </widget>
+       <zorder>ckbx_psic_clin_vincular</zorder>
+       <zorder>ckbx_psic_lab_organizacional</zorder>
+       <zorder>ckbx_psic_educacional</zorder>
+       <zorder>ckbx_neuropsic</zorder>
+       <zorder>ckbx_psicoprofilaxis</zorder>
+       <zorder>ckbx_psiconcologia</zorder>
+       <zorder>ckbx_investigacion</zorder>
+       <zorder>ckbx_evaluacion_psic</zorder>
+       <zorder>ckbx_psic_forense</zorder>
+       <zorder>ckbx_otros</zorder>
+       <zorder>ckbx_docencia</zorder>
+       <zorder>ckbx_nivel_universitario</zorder>
+       <zorder>ckbx_nivel_terciario</zorder>
+       <zorder>ckbx_nivel_medio</zorder>
+       <zorder>ckbx_psic_clin_nios</zorder>
+       <zorder>ckbx_psic_clin_adultos</zorder>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_8">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>320</y>
+         <width>831</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>9</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGroupBox{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+QCheckBox{
+background-color: rgb(77, 99, 127);}
+</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QCheckBox" name="ckbx_si">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>7</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(77, 99, 127);</string>
+        </property>
+        <property name="text">
+         <string>Si</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_no">
+        <property name="geometry">
+         <rect>
+          <x>73</x>
+          <y>7</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(77, 99, 127);</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_56">
+        <property name="geometry">
+         <rect>
+          <x>135</x>
+          <y>7</y>
+          <width>43</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ISNN:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lne_isnn_2">
+        <property name="geometry">
+         <rect>
+          <x>187</x>
+          <y>8</y>
+          <width>191</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>301</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(112, 144, 185);
+border-radius: 8px;</string>
+       </property>
+       <property name="text">
+        <string>    Áreas profesionales de actuación laboral</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>263</x>
+         <y>355</y>
+         <width>581</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QWidget" name="layoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>204</x>
+          <y>8</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <item>
+          <widget class="QCheckBox" name="cbx_dec_jur_si">
+           <property name="font">
+            <font>
+             <family>Century Schoolbook L</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+           </property>
+           <property name="text">
+            <string>Si</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="ckbx_dec_jur_no">
+           <property name="font">
+            <font>
+             <family>Century Schoolbook L</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+           </property>
+           <property name="text">
+            <string>No</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_57">
+        <property name="geometry">
+         <rect>
+          <x>36</x>
+          <y>40</y>
+          <width>96</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Nro de Legajo : </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lne_nro_legajo">
+        <property name="geometry">
+         <rect>
+          <x>135</x>
+          <y>39</y>
+          <width>231</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>298</x>
+          <y>10</y>
+          <width>221</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>¿Posee Legajo Completo?</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>461</x>
+          <y>7</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <item>
+          <widget class="QCheckBox" name="cbx_dec_jur_si_2">
+           <property name="font">
+            <font>
+             <family>Century Schoolbook L</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+           </property>
+           <property name="text">
+            <string>Si</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="ckbx_dec_jur_no_2">
+           <property name="font">
+            <font>
+             <family>Century Schoolbook L</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+           </property>
+           <property name="text">
+            <string>No</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>221</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>¿Posee Declaración Jurada?</string>
+        </property>
+       </widget>
+       <zorder>label_9</zorder>
+       <zorder>layoutWidget_2</zorder>
+       <zorder>label_57</zorder>
+       <zorder>lne_nro_legajo</zorder>
+       <zorder>label_3</zorder>
+       <zorder>layoutWidget_3</zorder>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>8</x>
+         <y>355</y>
+         <width>251</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>13</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(77, 99, 127);</string>
+        </property>
+        <property name="text">
+         <string>CUIT/CUIL:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lne_cuit">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>13</y>
+          <width>151</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lne_cuit_2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>101</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(77, 99, 127);</string>
+        </property>
+        <property name="text">
+         <string>Nro. Matrícula: </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <zorder>label_32</zorder>
+       <zorder>lne_cuit</zorder>
+       <zorder>label_39</zorder>
+       <zorder>lne_cuit_2</zorder>
+      </widget>
+      <widget class="QLabel" name="label_41">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>297</y>
+         <width>301</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(112, 144, 185);
+border-radius: 8px;</string>
+       </property>
+       <property name="text">
+        <string>      Trabaja con Obras Sociales</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>199</y>
+         <width>301</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(112, 144, 185);
+border-radius: 8px;</string>
+       </property>
+       <property name="text">
+        <string>    Orientación en Psicología Clínica</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_15">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>224</y>
+         <width>811</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>9</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGroupBox{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+
+QLabel{
+border-style: solid;
+border-width: 1px;
+border-radius: 2px;
+background-color: rgb(112, 144, 185);
+}</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QCheckBox" name="ckbx_orient_cognitivo">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>42</y>
+          <width>261</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Orientación cognitivo-conductual</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_otras_orientaciones">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>42</y>
+          <width>261</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Otras orientaciones</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_orient_sistemica">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>12</y>
+          <width>261</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string> Orientación sistémica</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="ckbx_orient_psicoanalitica">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>12</y>
+          <width>261</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Century Schoolbook L</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>Orientación psicoanalítica</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lne_otras_orientaciones">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>41</y>
+          <width>231</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>841</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>9</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>168</x>
+         <y>13</y>
+         <width>142</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>81</x>
+         <y>11</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Organismo:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>511</x>
+         <y>13</y>
+         <width>142</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_55">
+       <property name="geometry">
+        <rect>
+         <x>444</x>
+         <y>11</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Función:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>841</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(112, 144, 185);
+border-radius: 8px;</string>
+      </property>
+      <property name="text">
+       <string>                                                                           Trabaja en relación de dependencia</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>841</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(112, 144, 185);
+border-radius: 8px;</string>
+      </property>
+      <property name="text">
+       <string>                                                                           Trabaja de forma independiente</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>14</x>
+       <y>10</y>
+       <width>881</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);
+border-radius: 8px;</string>
+     </property>
+     <property name="text">
+      <string>                                                                                Datos Profesionales</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_datos_bancarios">
+    <attribute name="title">
+     <string>Datos Bancarios</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_13">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>74</y>
+       <width>851</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+}
+QLabel{
+background-color: rgb(77, 99, 127);
+}
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QGroupBox" name="groupBox_16">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>791</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lne_cbu">
+       <property name="geometry">
+        <rect>
+         <x>518</x>
+         <y>58</y>
+         <width>241</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>38</x>
+         <y>23</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Tipo de Cuenta:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>58</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Banco:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>392</x>
+         <y>58</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>CBU: </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>392</x>
+         <y>23</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Nro. de Cuenta:</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbx_tipo_de_cuenta">
+       <property name="geometry">
+        <rect>
+         <x>156</x>
+         <y>23</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Caja de ahorro</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="cbx_banco">
+       <property name="geometry">
+        <rect>
+         <x>156</x>
+         <y>58</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Patagonia</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLineEdit" name="lne_nro_cuenta">
+       <property name="geometry">
+        <rect>
+         <x>517</x>
+         <y>23</y>
+         <width>241</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_42">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>851</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);
+border-radius: 8px;</string>
+     </property>
+     <property name="text">
+      <string>                                                                                Datos Bancarios</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_43">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>51</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(112, 144, 185);
+border-radius: 8px;</string>
+     </property>
+     <property name="text">
+      <string>          Cuenta Bancaria</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Datos de Matriculación</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_18">
+     <property name="geometry">
+      <rect>
+       <x>32</x>
+       <y>50</y>
+       <width>851</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(21, 67, 127);
+border-bottom-color:rgb(21, 67, 127);
+background-color: rgb(255, 255, 255);
+}
+QLabel{
+background-color: rgb(77, 99, 127);
+}
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QGroupBox" name="groupBox_19">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>14</y>
+        <width>581</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox{
+background-color: rgb(77, 99, 127);
+}
+
+QLineEdit{
+background-color: rgb(255, 255, 255);
+}
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_45">
+       <property name="geometry">
+        <rect>
+         <x>38</x>
+         <y>23</y>
+         <width>131</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Nro. de Matrícula:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_47">
+       <property name="geometry">
+        <rect>
+         <x>275</x>
+         <y>59</y>
+         <width>171</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Fecha de Vencimiento:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>60</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Century Schoolbook L</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Fecha de Alta: </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lne_nro_cuenta_2">
+       <property name="geometry">
+        <rect>
+         <x>173</x>
+         <y>22</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="dte_fecha_titulo_grado_2">
+       <property name="geometry">
+        <rect>
+         <x>152</x>
+         <y>59</y>
+         <width>110</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy/M/dd</string>
+       </property>
+       <property name="date">
+        <date>
+         <year>2016</year>
+         <month>5</month>
+         <day>6</day>
+        </date>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="dte_fecha_titulo_grado_3">
+       <property name="geometry">
+        <rect>
+         <x>443</x>
+         <y>60</y>
+         <width>110</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy/M/dd</string>
+       </property>
+       <property name="date">
+        <date>
+         <year>2016</year>
+         <month>5</month>
+         <day>6</day>
+        </date>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_49">
+     <property name="geometry">
+      <rect>
+       <x>33</x>
+       <y>20</y>
+       <width>851</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Schoolbook L</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(169, 185, 191);
+border-radius: 8px;</string>
+     </property>
+     <property name="text">
+      <string>                                                                                Datos de Matriculación</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QDateEdit" name="dte_fecha">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>234</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2000</year>
+     <month>1</month>
+     <day>1</day>
+    </datetime>
+   </property>
+   <property name="displayFormat">
+    <string>dd/MM/yyyy</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
